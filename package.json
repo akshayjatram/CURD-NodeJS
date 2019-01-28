@@ -1,0 +1,21 @@
+{
+  "name": "finproject",
+  "version": "1.0.0",
+  "description": "financial data handling logic",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Akshay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^4.13.18"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
+}
